@@ -16,5 +16,6 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
-![Screenshot](https://github.com/gsbakshi/quiz_app/blob/master/Simulator Screen Shot - iPhone 12 Pro Max - 2020-12-09 at 15.31.13.png?raw=true)
+![Screenshot](https://github.com/gsbakshi/quiz_app/blob/master/Screenshotsw/one.png?raw=true)
+![Screenshot](https://github.com/gsbakshi/quiz_app/blob/master/Screenshotsw/two.png?raw=true)
 
