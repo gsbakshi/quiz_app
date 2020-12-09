@@ -4,9 +4,7 @@ import 'quiz.dart';
 import 'result.dart';
 import 'questions.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
   @override
@@ -26,8 +24,8 @@ class _MyAppState extends State<MyApp> {
 
   void _reset() {
     setState(() {
-      _totalScore = 0;
       _index = 0;
+      _totalScore = 0;
     });
   }
 
@@ -38,11 +36,12 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: 'Quiz App',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.indigo,
       ),
       home: Scaffold(
         appBar: AppBar(
           title: Text('Quiz App'),
+          backgroundColor: Colors.indigoAccent[700],
         ),
         body: _index < QUESTIONS.length
             ? Quiz(questionIndex, QUESTIONS, _index)

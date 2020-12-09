@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Result extends StatelessWidget {
@@ -25,18 +26,41 @@ class Result extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text('You\'re ' + phrase),
-            FlatButton(
+        // mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Expanded(
+            child: Container(),
+            flex: 6,
+          ),
+          Container(
+            margin: const EdgeInsets.only(bottom: 12),
+            child: Text(
+              'You\'re... ' + phrase,
+              style: TextStyle(fontSize: 20),
+            ),
+          ),
+          Expanded(
+            child: Container(),
+            flex: 1,
+          ),
+          Container(
+            width: double.infinity,
+            margin: EdgeInsets.symmetric(horizontal: 32),
+            child: CupertinoButton(
               onPressed: resetHandler,
               child: Text(
                 'Reset Quiz',
                 style: TextStyle(color: Colors.white),
               ),
-              color: Colors.blue,
+              color: Colors.blueAccent[700],
             ),
-          ]),
+          ),
+          Expanded(
+            child: Container(),
+            flex: 8,
+          ),
+        ],
+      ),
     );
   }
 }
