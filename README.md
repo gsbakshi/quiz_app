@@ -16,6 +16,6 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
-![Screenshot](https://github.com/gsbakshi/quiz_app/blob/master/Screenshotsw/one.png?raw=true)
-![Screenshot](https://github.com/gsbakshi/quiz_app/blob/master/Screenshotsw/two.png?raw=true)
+![Screenshot](https://github.com/gsbakshi/quiz_app/blob/master/Screenshots/one.png?raw=true)
+![Screenshot](https://github.com/gsbakshi/quiz_app/blob/master/Screenshots/two.png?raw=true)
 
