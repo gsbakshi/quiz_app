@@ -31,7 +31,6 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    // List ans = answers[index].toList();
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Quiz App',
