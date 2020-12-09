@@ -16,7 +16,5 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 <img src="/Screenshots/one.png" alt="Screenshot" width="350">
-
-![Screenshot](https://github.com/gsbakshi/quiz_app/blob/master/Screenshots/one.png?raw=true)
-![Screenshot](https://github.com/gsbakshi/quiz_app/blob/master/Screenshots/two.png?raw=true)
+<img src="/Screenshots/two.png" alt="Screenshot" width="350">
 
